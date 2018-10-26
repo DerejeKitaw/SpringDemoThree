@@ -1,0 +1,19 @@
+###
+http://localhost:8080/api/instructor/all
+###
+POST http://localhost:8080/api/instructor/create HTTP/1.1
+content-type: application/json
+
+{
+"firstName":"Winta",
+"lastName":"Tesafye",
+"email":"a123456"
+}
+###
+POST http://localhost:8080/api/instructor/update/a123456 HTTP/1.1
+content-type: application/json
+
+{
+"youtubeChanal":"Winta",
+"hobby":"Codding"
+}
